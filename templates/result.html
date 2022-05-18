@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+	 background-image: linear-gradient(to right, #72bdeb, #716eb0);
+   }
+   h1 {text-align: center;}
+    div {
+        font-size: 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        width:auto;
+        display:inline-block;
+        animation: typewriter 6s steps(25) alternate,
+          blink 800ms steps(25) alternate;
+        border-right: 5px solid black;
+      }
+      @keyframes typewriter {
+        from {
+          max-width: 0%;
+        }
+        to {
+          max-width: 50%;
+        }
+      }
+      @keyframes blink {
+        from {
+          border-color: black;
+        }
+        to {
+          border-color: transparent;
+        }
+      }
+      img{
+        height:200px;
+        width:200px;
+      }
+
+   </style>
+<title>Result Entities</title>
+</head>
+<body>
+<font face = "Times New Roman" size = "7"><h1 style="color:#000000;">Entities Are:</h1></font><br><br>
+
+<font style = "color:black;" face = "Bedrock" size = "5">
+  {% for o in output %}
+  <center><div>
+  {{ o.0 }} -> {{o.1}}</div><center> <br>
+{% endfor %}</font>
+</body>
+</html>
