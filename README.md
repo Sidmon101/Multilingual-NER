@@ -23,4 +23,4 @@ Flaskapp.py is the main code file.
 
 Here's hoping you find it useful and extend it further.
 
-
+<img src="https://github.com/Sidmon101/Multilingual-NER/blob/main/AppUI/Screenshot%202022-05-18%20225702.png">
