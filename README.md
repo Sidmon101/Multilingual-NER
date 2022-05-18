@@ -22,5 +22,13 @@ Flaskapp.py is the main code file.
 
 
 Here's hoping you find it useful and extend it further.
+APP UI
 
+Input Text-
 <img src="https://github.com/Sidmon101/Multilingual-NER/blob/main/AppUI/Screenshot%202022-05-18%20225702.png">
+
+Select Language-
+<img src="https://github.com/Sidmon101/Multilingual-NER/blob/main/AppUI/2022-05-18.png">
+
+Output Entity-
+<img src="https://github.com/Sidmon101/Multilingual-NER/blob/main/AppUI/Screenshot%202022-05-18%20225908.png>
