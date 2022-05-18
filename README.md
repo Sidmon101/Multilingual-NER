@@ -18,7 +18,7 @@ We have used NLTK and spaCy for NLP purposes.
 
 input.html and result.html are the input and ouput html pages respectively.
 
-Flaskapp.ipynb is the main code file.
+Flaskapp.py is the main code file.
 
 
 Here's hoping you find it useful and extend it further.
